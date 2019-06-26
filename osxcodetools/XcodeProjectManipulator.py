@@ -1,5 +1,5 @@
 from pbxproj import XcodeProject
-from ostools import FileHandler as fh
+import ostools.FileHandler as fh
 import os
 ###########################################################################
 #

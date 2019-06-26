@@ -1,2 +1,2 @@
-import xcodetools.XcodeProjectManipulator
-import xcodetools.PListFileHandler
+import osxcodetools.XcodeProjectManipulator
+import osxcodetools.PListFileHandler
