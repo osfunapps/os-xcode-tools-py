@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='os-xcode-tools',  # How you named your package folder (MyLib)
+    name='os_xcode_tools',  # How you named your package folder (MyLib)
     packages=['os_xcode_tools'],  # Choose the same as "name"
     version='1.03',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
@@ -10,7 +10,7 @@ setup(
     author_email='osfunapps@gmail.com',  # Type in your E-Mail
     url='https://github.com/osfunapps/os-xcode-tools-py',  # Provide either the link to your github or to your website
     keywords=['python', 'osfunapps', 'files', 'xcode', 'apple', 'ios', 'tools', 'utils'],  # Keywords that define your package best
-    install_requires=['pbxproj', 'ostools'],
+    install_requires=['pbxproj', 'os_tools'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',  # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
 
@@ -25,3 +25,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
 )
+
+
