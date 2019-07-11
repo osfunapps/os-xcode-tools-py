@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-this module contains functions to change properties of an xcode project (add files, directories, change plist files etc...)
+This module aim is to change properties of an xcode project (add files, directories, change plist files etc...)
 
 ## Installation
 Install via pip:
