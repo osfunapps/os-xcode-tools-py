@@ -1,2 +1,0 @@
-import osxcodetools.XcodeProjectManipulator
-import osxcodetools.PListFileHandler

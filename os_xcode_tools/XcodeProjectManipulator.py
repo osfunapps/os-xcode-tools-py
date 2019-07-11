@@ -8,12 +8,15 @@ import os
 ###########################################################################
 from pbxproj.pbxextensions import ProjectFiles
 
-'''
-call this initially. Will create the project object to work with.
-@:param xcodeproj_path -> the path to your xcodeproj file
-@:param pbxproj_path -> the path to your pbxproj file (usually just project.pbxproj)
-'''
+
 def build_project(xcodeproj_path, pbxproj_path='project.pbxproj'):
+    """
+    call this initially. Will create the project object to work with.
+
+    Args:
+        xcodeproj_path -> the path to your xcodeproj file
+        pbxproj_path -> the path to your pbxproj file (usually just project.pbxproj)
+    """
     return XcodeProject.load(xcodeproj_path + '/' + pbxproj_path)
 
 
