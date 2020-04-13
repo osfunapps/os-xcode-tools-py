@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='os_xcode_tools',  # How you named your package folder (MyLib)
-    packages=['os_xcode_tools'],  # Choose the same as "name"
-    version='1.03',  # Start with a small number and increase it with every change you make
+    packages=['os_xcode_tools', 'os_xcode_tools.modules'],  # Choose the same as "name"
+    version='1.05',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='a bunch of tools for python xcode project development ',  # Give a short description about your library
     author='Oz Shabat',  # Type in your name

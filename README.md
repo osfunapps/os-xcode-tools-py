@@ -12,8 +12,8 @@ Install via pip:
 ## Usage       
 Require XcodeProjectManipulator or PListFileHandler
         
-    import os_xcode_tools.XcodeProjectManipulator as xm
-    import os_xcode_tools.PListFileHandler as ph
+    import os_xcode_tools.xcode_project_manipulator as xm
+    import os_xcode_tools.pl_list_file_handler as ph
     
 
 ## Functions and signatures:
